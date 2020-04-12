@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="houliu-es-jd" />
+        <module name="houliu_es_study" />
         <module name="houliuES-es-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="houliu-es-jd" target="1.8" />
+      <module name="houliu_es_study" target="1.8" />
       <module name="houliuES-es-api" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -19,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="houliu-es-jd" options="-parameters" />
       <module name="houliuES-es-api" options="-parameters" />
+      <module name="houliu_es_study" options="-parameters" />
     </option>
   </component>
 </project>

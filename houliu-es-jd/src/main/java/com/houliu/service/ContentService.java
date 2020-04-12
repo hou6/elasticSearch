@@ -58,7 +58,7 @@ public class ContentService {
             pageNo = 1;
         }
         //条件搜索
-        SearchRequest searchRequest = new SearchRequest();
+        SearchRequest searchRequest = new SearchRequest("jd_goods");
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
         //分页
         sourceBuilder.from(pageNo);
